@@ -20,6 +20,10 @@ use ApiPlatform\Core\Api\FilterCollection;
  */
 class FilterCollectionTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @group legacy
+     * @expectedDeprecation The ApiPlatform\Core\Api\FilterCollection class is deprecated since version 2.1 and will be removed in 3.0. Implement the Psr\Container\ContainerInterface interface as service locator instead.
+     */
     public function testIsArrayObject()
     {
         $filterCollection = new FilterCollection();

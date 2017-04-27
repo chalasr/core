@@ -16,3 +16,4 @@ parameters:
         - '#Parameter \#1 \$source of static method ApiPlatform\\Core\\Util\\RequestParser::parseRequestParams\(\) expects string, string\|resource given#'
         - '#Call to an undefined method Doctrine\\Common\\Persistence\\ObjectManager::getConnection\(\)#'
         - '#Method ApiPlatform\\Core\\Api\\OperationTypeDeprecationHelper::getOperationType\(\) should return string but returns string|bool|null#'
+        - '#Parameter \#\d $filterLocator of class ^[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*$ constructor expects Psr\\Container\\ContainerInterface|ApiPlatform\\Core\\Api\\FilterCollection, ArrayObject given.#'

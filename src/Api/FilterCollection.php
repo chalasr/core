@@ -13,10 +13,16 @@ declare(strict_types=1);
 
 namespace ApiPlatform\Core\Api;
 
+use Psr\Container\ContainerInterface;
+
+@trigger_error(sprintf('The %s class is deprecated since version 2.1 and will be removed in 3.0. Implement the %s interface as service locator instead.', FilterCollection::class, ContainerInterface::class), E_USER_DEPRECATED);
+
 /**
  * A list of filters.
  *
  * @author Kévin Dunglas <dunglas@gmail.com>
+ *
+ * @deprecated since version 2.1, to be removed in 3.0. Use a service locator {@see \Psr\Container\ContainerInterface}.
  */
 final class FilterCollection extends \ArrayObject
 {
