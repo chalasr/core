@@ -23,7 +23,7 @@
         "symfony/property-access": "^2.7 || ^3.0",
         "symfony/property-info": "^3.3@beta",
         "symfony/serializer": "^3.3@beta",
-        "willdurand/negotiation": "^2.0.3"
+        "willdurand/negotiation": "~2.2.0"
     },
     "require-dev": {
         "behat/behat": "^3.1",
